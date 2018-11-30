@@ -1,4 +1,5 @@
 import React from 'react'
+import { PivotalLabs } from './slides/PivotalLabs'
 import { GraphicSlide } from './GraphicSlide'
 import { TableOfContents } from './TableOfContents'
 import { Hello } from './slides/Hello'
@@ -45,6 +46,12 @@ const slides = [
   <TableOfContents current={1}/>,
   <Hello index={0}/>,
   <Hello index={1}/>,
+  <Hello index={2}/>,
+  <PivotalLabs index={0}/>,
+  <PivotalLabs index={1}/>,
+  <PivotalLabs index={2}/>,
+  <PivotalLabs index={3}/>,
+  <PivotalLabs index={4}/>,
   <Hello index={2}/>,
   <Hello index={3}/>,
   <TalkIsNot index={0}/>,
